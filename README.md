@@ -11,6 +11,11 @@ The features of the model are summarized below:
 + Opencv backed image processing
 + Fast Webserver 
 
+
++ The code is based on [pistache](http://pistache.io/) REST AP server, [OpenCV](https://opencv.org/), [spdlog](https://github.com/gabime/spdlog) Logging, [json](https://github.com/nlohmann/json), [Boost libraries](https://www.boost.org/)
+
++ The model provided is a resnet50 model, trained on imagenet1000.
+
 ### Speed Comparision
 + CPU: Intel i7-8550U CPU @ 1.80GHz
 + RAM: 16GB
@@ -25,10 +30,6 @@ The features of the model are summarized below:
 + Workers: 6
 + Ram consumption: 0.5GB
     
-+ The code is based on [pistache](http://pistache.io/) REST AP server, [OpenCV](https://opencv.org/), [spdlog](https://github.com/gabime/spdlog) Logging, [json](https://github.com/nlohmann/json), [Boost libraries](https://www.boost.org/)
-
-+ The model provided is a resnet50 model, trained on imagenet1000.
-
 ### Contents
 1. [Installation](#installation)
 2. [Download Pre-Trained Model](#download)
