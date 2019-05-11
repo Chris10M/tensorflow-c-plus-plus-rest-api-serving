@@ -48,7 +48,7 @@ Then run,
 ```
 to build and run the webserver.
 
-**** To set the ip address and the port number modify the ./startup.sh. and to change the route modify it in src/app.cpp****
+**To set the ip address and the port number modify the ./startup.sh. and to change the route modify it in src/app.cpp**
 
 ### Download
 A **Pre-trained test model** is available at this Link [GoogleDrive](https://drive.google.com/open?id=1EC98US1ck0wF0lDE4HFjySxzlWCv75jh), dowload it and place it in models/ path.
