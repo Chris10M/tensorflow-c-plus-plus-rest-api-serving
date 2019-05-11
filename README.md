@@ -12,7 +12,7 @@ The features of the model are summarized below:
 + Fast Webserver 
 
 ### Speed Comparision
-  + CPU: Intel i7-8550U CPU @ 1.80GHz
++ CPU: Intel i7-8550U CPU @ 1.80GHz
   + RAM: 16GB
   
   **Python Implementation**
