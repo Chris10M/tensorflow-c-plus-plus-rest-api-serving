@@ -12,9 +12,9 @@ The features of the model are summarized below:
 + Fast Webserver 
 
 
-+ The code is based on [pistache](http://pistache.io/) REST AP server, [OpenCV](https://opencv.org/), [spdlog](https://github.com/gabime/spdlog) Logging, [json](https://github.com/nlohmann/json), [Boost libraries](https://www.boost.org/)
+The code is based on [pistache](http://pistache.io/) REST AP server, [OpenCV](https://opencv.org/), [spdlog](https://github.com/gabime/spdlog) Logging, [json](https://github.com/nlohmann/json), [Boost libraries](https://www.boost.org/)
 
-+ The model provided is a resnet50 model, trained on imagenet1000.
+**The model provided is a resnet50 model, trained on imagenet1000.**
 
 ### Speed Comparision
 + CPU: Intel i7-8550U CPU @ 1.80GHz
