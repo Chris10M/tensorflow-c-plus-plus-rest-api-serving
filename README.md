@@ -60,7 +60,11 @@ If you've cloned the repo and then downloaded the pre-trained model, run
 ./startup.sh
 ```
 
-Now you could acess the websever using **POST** Reqeust,
+Now you could acess the websever using **POST** Reqeust using the endpoint, 
+```
+http://0.0.0.0:52118/test-tensorflow-serving-api
+```
+with content type as "application/json"
 ```
 {
   "url": "some-image-url"
@@ -72,12 +76,7 @@ or if you want to give a base64Image input then,
   "base64Image": "base64_image_data"
 }
 ```
-
-Then hit the endpoint, 
-```
-http://0.0.0.0:52118/test-tensorflow-serving-api
-```
-using **POST** to facilitate a response.
+to facilitate a response.
 
 ### Issues
 If you encounter any issues, please create an issue tracker.
