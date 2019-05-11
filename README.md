@@ -13,29 +13,26 @@ The features of the model are summarized below:
 
 ### Speed Comparision
 + CPU: Intel i7-8550U CPU @ 1.80GHz
-  + RAM: 16GB
-  
-  **Python Implementation**
-    + Inference Time: 300 secs/ 500 requests
-    + Workers: 6
-    + Ram consumption: 1.5GB
++ RAM: 16GB
+ 
+**Python Implementation**
++ Inference Time: 300 secs/ 500 requests
++ Workers: 6
++ Ram consumption: 1.5GB
     
-  **C++ Implementation**
-    + Inference Time: 275 secs/ 500 requests
-    + Workers: 6
-    + Ram consumption: 0.5GB
+**C++ Implementation**
++ Inference Time: 275 secs/ 500 requests
++ Workers: 6
++ Ram consumption: 0.5GB
     
-+ The code is based on [pistache](http://pistache.io/) REST AP server, [OpenCV](https://opencv.org/), [spdlog](https://github.com/gabime/spdlog) Logging, [json](https://github.com/nlohmann/json) json framework, [Boost libraries](https://www.boost.org/)
++ The code is based on [pistache](http://pistache.io/) REST AP server, [OpenCV](https://opencv.org/), [spdlog](https://github.com/gabime/spdlog) Logging, [json](https://github.com/nlohmann/json), [Boost libraries](https://www.boost.org/)
 
-+ The model provided is a test model, trained on imagenet1000, resnet50.
++ The model provided is a resnet50 model, trained on imagenet1000.
 
 ### Contents
 1. [Installation](#installation)
 2. [Download Pre-Trained Model](#download)
 2. [Demo](#demo)
-3. [Eval](#eval)
-4. [Train](#train)
-5. [Examples](#examples)
 
 ### Installation
 Run,
