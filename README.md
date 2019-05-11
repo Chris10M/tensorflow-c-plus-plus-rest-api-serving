@@ -1,4 +1,4 @@
-# # A Simple Tensorflow C++ Rest API Serving
+# A Simple Tensorflow C++ Rest API Serving
 
 This repo contains the boiler-plate code for serving any tensoflow model(frozen graph). The code base is written on C++.
 
